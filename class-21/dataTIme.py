@@ -9,3 +9,7 @@ print(datetime.now())
 result = datetime.now() + timedelta(days= - 7)
 
 print(result)
+
+format = "%d - %m"
+
+print(datetime.now().strftime(format))
